@@ -1,0 +1,3156 @@
+{
+  "9c2b69845a56ec906a0b7c38fbd691cb494e81ce4d0d103fbe1a62989eeb383a:Lekarstwa": {
+    "category": "health",
+    "confidence": 1,
+    "probabilities": {
+      "dining": 0,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0,
+      "travel": 0,
+      "digital": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 0,
+      "health": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "d6ba372d1b8a509a2273161d10db4e61860d0b1e9fd5408126da784962ab2e23:Artykuły spożywcze": {
+    "category": "dining",
+    "confidence": 0.94,
+    "probabilities": {
+      "health": 0,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0,
+      "travel": 0,
+      "digital": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 0.05,
+      "dining": 0.95
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "49cf70f80a3e4aad1a6451fb64134453cf4edb5852305befd0c490eb28a7b834:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "dining": 0,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0,
+      "travel": 0,
+      "digital": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 1,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "70b0907b3489621cc8b114b6f0167084417abd7b172d787dfc43b5950a60da8e:Bez kategorii": {
+    "category": "other",
+    "confidence": 0.86,
+    "probabilities": {
+      "health": 0,
+      "shopping": 0.02,
+      "transfers": 0,
+      "transport": 0,
+      "travel": 0.1,
+      "digital": 0,
+      "home": 0,
+      "other": 0.87,
+      "groceries": 0,
+      "dining": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "d078f01381f90b8ce1b4f0b63d5977b4fc40f4406f6caf3695bd474cb3478872:Inne": {
+    "category": "travel",
+    "confidence": 0.99,
+    "probabilities": {
+      "dining": 0,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0.01,
+      "digital": 0,
+      "travel": 0.99,
+      "home": 0,
+      "other": 0,
+      "groceries": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "travel"
+  },
+  "8d8f865bd314a8e7377be35d99e2d89412abc4ff4536f17fe3e836456b5ad1a2:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "dining": 1,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0,
+      "digital": 0,
+      "travel": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "7b0b7629e08acc4a97d7f69a03552626fa089ede79d7aacc0e115bb1d96975d1:Transport publiczny": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "dining": 0,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 1,
+      "digital": 0,
+      "travel": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "a3e217a2cbdfeb3830d27f9da79c039d91aa9cd4d0a0763112fba4fc45487b8d:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "health": 0,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0,
+      "travel": 0,
+      "digital": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 0,
+      "dining": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "ed4b4b39a2738d19ebb26345e3a4cc84e16b3776e6059081b6ba77531a01dc77:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.99,
+    "probabilities": {
+      "dining": 0.99,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0,
+      "travel": 0,
+      "digital": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 0.01,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "c2d3c52424a8cc2abe70e14c36ac8405e84eac08b39fea704178e6dc5857f6c3:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.94,
+    "probabilities": {
+      "dining": 0.01,
+      "shopping": 0.03,
+      "transfers": 0,
+      "transport": 0,
+      "digital": 0,
+      "travel": 0,
+      "home": 0,
+      "other": 0.01,
+      "groceries": 0.95,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "04462c1620e3c4931726416505ed8b01c80d1f176f391c501ba98e60665f63b7:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.99,
+    "probabilities": {
+      "health": 0,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0,
+      "travel": 0,
+      "digital": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 1,
+      "dining": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "599e50b64672373f5141fe0bc1c054e46cb9792f2b1e2a4aaafa97ba89cebac5:Puby i kluby": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "health": 0,
+      "shopping": 0,
+      "transfers": 0,
+      "transport": 0,
+      "digital": 0,
+      "travel": 0,
+      "home": 0,
+      "other": 0,
+      "groceries": 0,
+      "dining": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "b24b5dd7730c7c71b5032f84bcecaea766fc37e8cbe9d903ae01e46af145e3c7:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.91,
+    "probabilities": {
+      "health": 0,
+      "groceries": 0,
+      "other": 0.08,
+      "transfers": 0,
+      "travel": 0,
+      "digital": 0,
+      "transport": 0,
+      "dining": 0.92,
+      "home": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "6b30c0e927fe888670a03e06e6384ddaf9cfb1976718984192b55249ecbb6a49:Multimedia": {
+    "category": "digital",
+    "confidence": 0.93,
+    "probabilities": {
+      "health": 0,
+      "groceries": 0,
+      "other": 0.05,
+      "transfers": 0.01,
+      "travel": 0,
+      "digital": 0.94,
+      "transport": 0,
+      "dining": 0,
+      "home": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "2c17a27e763951ff474d07ea734b7e69a829627d914f1c1a856932b097df3ce8:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "groceries": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "dining": 1,
+      "shopping": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "91e9ac417d2f3869305ae48d8bf00c125f53013cf8a245b2df795d5d7591594d:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "health": 0,
+      "groceries": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "digital": 0,
+      "transport": 0,
+      "dining": 1,
+      "shopping": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "48f832722fd2bdbd52c29a5a4ee89c0b6cef134ec3e202e4357c36761213e325:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.89,
+    "probabilities": {
+      "health": 0.01,
+      "groceries": 0.9,
+      "other": 0.06,
+      "transfers": 0,
+      "travel": 0,
+      "digital": 0,
+      "transport": 0,
+      "dining": 0.02,
+      "home": 0,
+      "shopping": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "f5c51319dee6aebbccbe12cd2c660814eac2e58b459efc2ff2c69bb941685ab4:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "groceries": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "dining": 1,
+      "home": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "66cf8e15b56e5b4f5e0c0286f47ca678da405a6d6b71ff4698c6df7f721579d0:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.9,
+    "probabilities": {
+      "digital": 0,
+      "groceries": 0,
+      "other": 0.08,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "dining": 0.92,
+      "home": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "c59ea55fa62152b2c483c4748ac80dbbee26d7ce1017830a91670842a0cb9bf9:Multimedia": {
+    "category": "digital",
+    "confidence": 0.75,
+    "probabilities": {
+      "digital": 0.79,
+      "groceries": 0,
+      "other": 0.13,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "dining": 0.04,
+      "home": 0,
+      "shopping": 0.04
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "1263196b577cc12876426d959b9a3d154983e1374bc28206c3c48e5bd515e200:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.77,
+    "probabilities": {
+      "digital": 0,
+      "groceries": 0.79,
+      "other": 0.17,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0.01,
+      "transport": 0,
+      "dining": 0.01,
+      "home": 0,
+      "shopping": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "c365dae28829ee5248fde2575fe759ebf32e607b363480493cd64496a5a7a2e5:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.71,
+    "probabilities": {
+      "health": 0,
+      "groceries": 0.74,
+      "other": 0.19,
+      "transfers": 0,
+      "travel": 0,
+      "digital": 0.01,
+      "transport": 0,
+      "dining": 0.01,
+      "home": 0,
+      "shopping": 0.05
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "75aef571b13c085fb70348310edcea47586c4986c9a8a5938adbd2615d14848b:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.98,
+    "probabilities": {
+      "health": 0,
+      "groceries": 0,
+      "other": 0.02,
+      "transfers": 0,
+      "travel": 0,
+      "digital": 0,
+      "transport": 0,
+      "dining": 0.98,
+      "home": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "507ed7801eb99aba2f615c52f2fe656896b02989d3f9784be48bf6af69066530:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "health": 0,
+      "groceries": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "digital": 0,
+      "transport": 0,
+      "dining": 1,
+      "home": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "4995170b845a9b37dea39fbc5a4f6b32834effe700c63710b1f52f37e6fcf26a:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.94,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0.04,
+      "other": 0.01,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "groceries": 0.95,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "92cb3bbb73d807053dc62ae9d39ce404183abda5e1874cfd2c8456a13011662d:Artykuły spożywcze": {
+    "category": "dining",
+    "confidence": 0.94,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0.95,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "shopping": 0,
+      "groceries": 0.05
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "2b2571415ee56bfbfbf34a06738daf57d2cf22d2c2d7634b4a206e3a328b6845:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "shopping": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "4a0afcbeba81ed522c20d23bc8ed618699c42336cd59565a273c9c8724b96ba3:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "health": 0,
+      "home": 0,
+      "travel": 0,
+      "groceries": 1,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "488c5003852fd4452b98436dc5d1f5bf1b177d26bf758e95e9c7d75cbfd25cd8:Internet, TV, telefon": {
+    "category": "digital",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 1,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "shopping": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "digital"
+  },
+  "bdaec73e92593b85ce63c1f9ec03f1745a6b040a0cffafe1f6406820b35a2e02:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "health": 0,
+      "home": 0,
+      "travel": 0,
+      "shopping": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "c040e490b8a40e469c75698b4a88acd46781d0c939f183be75b8a576a1cb2726:Internet, TV, telefon": {
+    "category": "home",
+    "confidence": 0.9,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0.09,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0.91,
+      "health": 0,
+      "groceries": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "home"
+  },
+  "4eec8e6a414de4e73cbc182762dfb9646b9170ab1b567cc8be9dd3925404b896:Zwierzęta domowe": {
+    "category": "shopping",
+    "confidence": 0.92,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0.05,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0.01,
+      "shopping": 0.93,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "005e4f76e61174a3312d0f567ae8b6effaaf55a355720c52bf9dab7cda8cc550:Artykuły spożywcze": {
+    "category": "dining",
+    "confidence": 0.91,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0.92,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "health": 0,
+      "home": 0,
+      "travel": 0,
+      "groceries": 0.08,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "f150ac6df462df5e36f434e37ce63bd10813a232d85692da1d734461db5ab3a0:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.99,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "health": 0,
+      "home": 0,
+      "travel": 0,
+      "groceries": 1,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "5121a4b55bc0e2bdbc42956cfe56eba180020aea8ff156e30cd928661c0af59f:Zwierzęta domowe": {
+    "category": "shopping",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "groceries": 0,
+      "shopping": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "shopping"
+  },
+  "95c353cd530dca64b1599e82ad8cc20f7842ce4473db82371345c16f381336eb:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.99,
+    "probabilities": {
+      "transport": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "shopping": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "20108164601d9bc76767a5afc42e34b5c2eb09aaba56c7669630f3c02e149eb5:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "health": 0,
+      "shopping": 0,
+      "home": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "groceries": 1,
+      "transfers": 0,
+      "travel": 0,
+      "transport": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "9e0a49c44d8b89f815216a2269bf7576baf7941ac9fea6c409f9cf639cd33ab2:Obuwie": {
+    "category": "shopping",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "home": 0,
+      "shopping": 1,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "shopping"
+  },
+  "029b57d75a9b461d4346d455a0f92f34e9c977b4cdb5584c2bb2d9c62074b3eb:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "health": 0,
+      "home": 0,
+      "shopping": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0,
+      "transport": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "f53e24c508d2334b014e236b0cd7389259a4d95632e66a035d5918658c8fd675:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "health": 0,
+      "home": 0,
+      "shopping": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0,
+      "transport": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "aac664cd2e4ac769b65f12b4a3a4395486b792bb3102fc5f8cd1b64c2845baf1:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "shopping": 0,
+      "home": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "7ea63f79d21b609427ace3497e87b14bc7d38cc460c862869b2cac39a3dbb281:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.95,
+    "probabilities": {
+      "transport": 0,
+      "home": 0,
+      "shopping": 0,
+      "dining": 0.96,
+      "other": 0.03,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0.01,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "b6659b6bc679892cb06a5f8182bc1b43c0af2f698b9185423c5ae69a19866f8f:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "home": 0,
+      "shopping": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "groceries": 1,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "3fcfeeaad7261672f9985ef0961faa5eb5f0d8c40e08ca885e38e7a8f469a700:Kosmetyki": {
+    "category": "health",
+    "confidence": 0.99,
+    "probabilities": {
+      "health": 1,
+      "home": 0,
+      "shopping": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0,
+      "transport": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "health"
+  },
+  "baed5f83a2dffd03ecc06b0c788b17b3cd377af7c2b254d06720dcbebcdb91bd:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "shopping": 0,
+      "home": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "groceries": 1,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "a6f30dddbc156880a255f0e77ba49891a61b09b2fd6187b2a6271db99188485a:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.98,
+    "probabilities": {
+      "transport": 0,
+      "shopping": 0,
+      "home": 0,
+      "dining": 0.99,
+      "other": 0.01,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "33599def7b6fafca79618b061ae69a7612d7cfc30debb9fce517e257a67b941d:Paliwo": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "health": 0,
+      "home": 0,
+      "shopping": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0,
+      "transport": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "6db5ec37d6782e8119841c29ddf0733d8f53db3c1aa3fd3ca2127f09d84c0a19:Inne": {
+    "category": "transport",
+    "confidence": 0.99,
+    "probabilities": {
+      "transport": 1,
+      "shopping": 0,
+      "home": 0,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "11bc619dca5e9f140083965ac1094c2d105f3ec34d1c552dbf6e90db1313aa1e:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "groceries": 1,
+      "shopping": 0,
+      "digital": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "transport": 0,
+      "travel": 0,
+      "health": 0,
+      "other": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "fa28a115d8a38f17373851e4ada583a2c6635d39db49018b747186d6a7ce9338:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "groceries": 0,
+      "shopping": 0,
+      "digital": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 1,
+      "transport": 0,
+      "travel": 0,
+      "health": 0,
+      "other": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "ee443185bd7aec63fa32e683803f5bac8188403635cdedb475db187debaccce8:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "groceries": 1,
+      "shopping": 0,
+      "travel": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "transport": 0,
+      "digital": 0,
+      "health": 0,
+      "other": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "fa6132358cc19275199b93c9f7aad631d383ee26252cf081c7e326e7a77b7830:Paliwo": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "groceries": 0,
+      "shopping": 0,
+      "travel": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "transport": 1,
+      "digital": 0,
+      "health": 0,
+      "other": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "bfeaf7f75ba98a16a095e96137e5d0a1ab917536cad8797833bba800ab6cf7c5:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "shopping": 0,
+      "other": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 1,
+      "transport": 0,
+      "digital": 0,
+      "health": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "ad4ce5388877c2cb34060c801161a3322d4c2a64bdff4759bad02d4b50b29325:Inne": {
+    "category": "other",
+    "confidence": 0.81,
+    "probabilities": {
+      "other": 0.83,
+      "shopping": 0.01,
+      "travel": 0.05,
+      "home": 0.09,
+      "transfers": 0.01,
+      "dining": 0,
+      "transport": 0.01,
+      "digital": 0,
+      "health": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "b9c6f7acfe39abcb55bb7604291f84456f86ec0e6baa0bf27f936ff75975aa5f:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.83,
+    "probabilities": {
+      "other": 0.11,
+      "shopping": 0.02,
+      "digital": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0.01,
+      "transport": 0,
+      "travel": 0,
+      "health": 0,
+      "groceries": 0.86
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "a362ed0657af7cc5a4c3e9fe4600f8fc38bdf17024b3fd9d0a2891c17acf55a5:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.9,
+    "probabilities": {
+      "groceries": 0,
+      "shopping": 0.02,
+      "digital": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0.91,
+      "transport": 0,
+      "travel": 0,
+      "health": 0,
+      "other": 0.07
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "52a364ba5325af53952fbb419b965a5df01a861e44d60e8beb7681c69ab077f9:Artykuły spożywcze": {
+    "category": "health",
+    "confidence": 0.89,
+    "probabilities": {
+      "other": 0,
+      "shopping": 0.01,
+      "travel": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "transport": 0,
+      "digital": 0,
+      "health": 0.91,
+      "groceries": 0.08
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "health"
+  },
+  "cebe1b84fb6a620c0ea10ed073398b58dcebb59599ea7e90cea977c9a73d5fdb:Paliwo": {
+    "category": "transport",
+    "confidence": 0.99,
+    "probabilities": {
+      "groceries": 0,
+      "shopping": 0,
+      "travel": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "transport": 1,
+      "digital": 0,
+      "health": 0,
+      "other": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "33ec1745a3ca86f302c51c2b12ff418cd0aa201a97c53be4bfc7f3da78220137:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "other": 0,
+      "shopping": 0,
+      "travel": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "transport": 0,
+      "digital": 0,
+      "health": 0,
+      "groceries": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "d9a7248effe3c534375ae8a9809a016ad1cbc7817f8a4c000efb8aa1fce0b97c:Podróże": {
+    "category": "travel",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "groceries": 0,
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "transport": 0,
+      "travel": 1,
+      "health": 0,
+      "other": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "travel"
+  },
+  "c39cf20dec76567ee3b3dc7fe13f7a8a51a05fa7462fac174ac5fafe7117f002:Podróże": {
+    "category": "travel",
+    "confidence": 0.99,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0.01,
+      "digital": 0,
+      "transfers": 0,
+      "health": 0,
+      "home": 0,
+      "travel": 0.99,
+      "shopping": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "travel"
+  },
+  "699c04f6ee8dc600d6f013f035d1ec024a9087abc515a4f557f162c88ab5fc6d:Prezenty, upominki": {
+    "category": "travel",
+    "confidence": 0.6,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0.02,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0.65,
+      "home": 0,
+      "health": 0,
+      "shopping": 0.33,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "travel"
+  },
+  "a0255e3edbeddc6c0dcd5347b908e7d0fae774168fb03b8f4509e10de590314f:Bez kategorii": {
+    "category": "other",
+    "confidence": 0.62,
+    "probabilities": {
+      "transport": 0.01,
+      "dining": 0.02,
+      "other": 0.66,
+      "digital": 0,
+      "transfers": 0.04,
+      "travel": 0.21,
+      "home": 0,
+      "health": 0.01,
+      "groceries": 0.02,
+      "shopping": 0.03
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "5194a1bb547fee7806c2991aa94689a7b1b30624fd5572edccf4db30ab079018:Bez kategorii": {
+    "category": "other",
+    "confidence": 0.79,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0.01,
+      "other": 0.81,
+      "digital": 0,
+      "transfers": 0.04,
+      "health": 0.01,
+      "home": 0,
+      "travel": 0.05,
+      "groceries": 0.04,
+      "shopping": 0.03
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "e6ab60df009948aea90e85dc8e4bfbb3d6141cd9ddac6c46d9de41ef7017d1a4:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "groceries": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "6dd1e936cf9dcfe405b1ce2f9901722fac5d8937d615569ea115889652788cca:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.92,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0,
+      "other": 0.05,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0.01,
+      "groceries": 0.93,
+      "shopping": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "6548a860f2b64599c8789ecde851cd8a06917f4883b5e331ca4923543a7148ea:Paliwo": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 1,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "groceries": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "a1cb25d4ac75a93c6cfd38b4022d690d07c5f4920ffbce47589f2156e6af0f46:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "groceries": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "b63b907fdc07954d0cd20a940500c77fbf4b834085f71d9c7311af231cb103c1:Paliwo": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 1,
+      "dining": 0,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "health": 0,
+      "home": 0,
+      "travel": 0,
+      "shopping": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "c9a49b6cb6d4be0346d77ad35163573b7a69c5837723ed835929fa66f9bb58ac:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.97,
+    "probabilities": {
+      "transport": 0,
+      "dining": 0.97,
+      "other": 0.03,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "shopping": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "cd29ee8730f39686ddcdd0094e58cc7c324333268284b2845507c878b5859b2d:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "dining": 1,
+      "other": 0,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "shopping": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "f480a9d8bb866477eafda71ba183d7aab19742554f8e3ed6efc7801cc5e9a2a9:Artykuły spożywcze": {
+    "category": "transport",
+    "confidence": 0.4,
+    "probabilities": {
+      "transport": 0.46,
+      "dining": 0.01,
+      "other": 0.03,
+      "digital": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0.01,
+      "shopping": 0.04,
+      "groceries": 0.45
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "f3781db8bd996b75af00e03d80091f74b6184cb0eb57051b5f95e3c1e6598e3e:Bez kategorii": {
+    "category": "other",
+    "confidence": 0.73,
+    "probabilities": {
+      "transfers": 0,
+      "dining": 0.01,
+      "transport": 0,
+      "digital": 0,
+      "groceries": 0,
+      "home": 0,
+      "shopping": 0.19,
+      "other": 0.76,
+      "travel": 0.04,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "6aa30bd410af6bdab2f7ef1009bfb3ec5e5a3bba043779df4477aa5918d4e963:Hotele": {
+    "category": "travel",
+    "confidence": 0.99,
+    "probabilities": {
+      "transfers": 0,
+      "transport": 0,
+      "dining": 0,
+      "digital": 0,
+      "groceries": 0,
+      "home": 0,
+      "shopping": 0,
+      "other": 0.01,
+      "travel": 0.99,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "8ad8c4f987b9c6d1b68d6ba4638c957d3d67c94afb40e9e2dc8a32c0c7b7e245:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.98,
+    "probabilities": {
+      "transfers": 0,
+      "dining": 0.98,
+      "transport": 0,
+      "digital": 0,
+      "groceries": 0,
+      "home": 0,
+      "shopping": 0,
+      "other": 0.02,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "d5f5dff7ffba8b92715a659ddd537ce8387911b30d592f3ed95d4467eafb6d6c:Hotele": {
+    "category": "travel",
+    "confidence": 0.97,
+    "probabilities": {
+      "transfers": 0,
+      "transport": 0,
+      "dining": 0,
+      "digital": 0,
+      "shopping": 0,
+      "home": 0,
+      "groceries": 0,
+      "other": 0.02,
+      "travel": 0.98,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "f0f0b7e1ff5006c9056af85cb83fbdd51d76d5b0974a153d9bc5ec2b66a1fadc:Internet, TV, telefon": {
+    "category": "digital",
+    "confidence": 0.99,
+    "probabilities": {
+      "transfers": 0,
+      "transport": 0,
+      "dining": 0,
+      "digital": 1,
+      "groceries": 0,
+      "home": 0,
+      "shopping": 0,
+      "other": 0,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "digital"
+  },
+  "67a2cebce7d8b6aad080ccdd8c042a18402514d285cbd49521c2ef11944b4b11:Hotele": {
+    "category": "travel",
+    "confidence": 1,
+    "probabilities": {
+      "transfers": 0,
+      "dining": 0,
+      "transport": 0,
+      "digital": 0,
+      "groceries": 0,
+      "home": 0,
+      "shopping": 0,
+      "other": 0,
+      "travel": 1,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "travel"
+  },
+  "85568946da3c9d4fc8c3e3782d600acf7fce42e535547803f8b71372082e73c6:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.59,
+    "probabilities": {
+      "transfers": 0,
+      "dining": 0.19,
+      "transport": 0,
+      "digital": 0,
+      "shopping": 0.01,
+      "home": 0,
+      "groceries": 0.64,
+      "other": 0.15,
+      "travel": 0.01,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "dccfcec0794102e3412076850fd4901e4ec21916f049f703e88e077a140b5ff1:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.97,
+    "probabilities": {
+      "transfers": 0,
+      "transport": 0,
+      "dining": 0.98,
+      "digital": 0,
+      "shopping": 0,
+      "home": 0,
+      "groceries": 0.01,
+      "other": 0.01,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "eb60af09f1579f1fb0f83a9a17c1240000a8c79dd14ce71a2027b73177cb8d8d:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "transfers": 0,
+      "dining": 1,
+      "transport": 0,
+      "digital": 0,
+      "groceries": 0,
+      "home": 0,
+      "shopping": 0,
+      "other": 0,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "0feb9a196c3166bfea1404be8c2483ab5e43e0b98019b919cc3bfbf75ab4cd52:Lekarstwa": {
+    "category": "health",
+    "confidence": 0.96,
+    "probabilities": {
+      "transfers": 0,
+      "transport": 0,
+      "dining": 0,
+      "digital": 0,
+      "groceries": 0.03,
+      "home": 0,
+      "shopping": 0,
+      "other": 0,
+      "travel": 0,
+      "health": 0.97
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "d09527b7631ded70befb9302876521e1a1bc3235ca0d6395bfd3e6b927133ace:Paliwo": {
+    "category": "transport",
+    "confidence": 0.97,
+    "probabilities": {
+      "transfers": 0,
+      "transport": 0.98,
+      "dining": 0,
+      "digital": 0,
+      "groceries": 0,
+      "home": 0,
+      "shopping": 0,
+      "other": 0.02,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "c83c41880de48bc70922af20525088a439c25f189e4c8ef567023e3c051b4905:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.96,
+    "probabilities": {
+      "transfers": 0,
+      "dining": 0.96,
+      "transport": 0,
+      "digital": 0,
+      "groceries": 0,
+      "home": 0,
+      "shopping": 0,
+      "other": 0.04,
+      "travel": 0,
+      "health": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "f279eac7234d2ce04f9ceaa120301184e00968a36c10470fcbbcf1bb7f92e633:Paliwo": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "health": 0,
+      "shopping": 0,
+      "other": 0,
+      "transfers": 0,
+      "home": 0,
+      "transport": 1,
+      "travel": 0,
+      "groceries": 0,
+      "dining": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "a2d5d1008ee48a342604eb587121f95b3dfcb325f71abbb8df33a3e2ba130d7b:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "transfers": 0,
+      "shopping": 0,
+      "other": 0,
+      "health": 0,
+      "travel": 0,
+      "home": 0,
+      "transport": 0,
+      "groceries": 0,
+      "dining": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "6ad81c2b20c13aec646090ab4dc8448041ed2e7e3def371d978c7935e5bf0668:Hotele": {
+    "category": "travel",
+    "confidence": 0.57,
+    "probabilities": {
+      "digital": 0,
+      "transfers": 0,
+      "shopping": 0,
+      "other": 0.01,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "travel": 0.62,
+      "groceries": 0,
+      "dining": 0.37
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "f21afb95c7b217ccb4f684acfb8768a4f1930937bc00e4e7a31858dfae2a5608:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.59,
+    "probabilities": {
+      "digital": 0,
+      "health": 0,
+      "shopping": 0,
+      "other": 0,
+      "transfers": 0,
+      "transport": 0,
+      "home": 0,
+      "travel": 0.36,
+      "groceries": 0,
+      "dining": 0.64
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "travel"
+  },
+  "0774911d47b777fc1009b10b01feddb1ed03d62a19f73f95c6759e1a1be297f9:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.98,
+    "probabilities": {
+      "digital": 0,
+      "health": 0,
+      "shopping": 0,
+      "other": 0.01,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0,
+      "transport": 0,
+      "groceries": 0.98,
+      "dining": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "37d2b5da455487721055ee66ea5c3b830dede4881fbfc98d4d7bf7f427fdfeef:Lekarstwa": {
+    "category": "health",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "health": 1,
+      "shopping": 0,
+      "other": 0,
+      "transfers": 0,
+      "transport": 0,
+      "home": 0,
+      "travel": 0,
+      "groceries": 0,
+      "dining": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "health"
+  },
+  "beee8d8707bf67f5f8dbcb3feb5ff71bd48d6d774cf78fdaba20f89c09555e70:Inne": {
+    "category": "transport",
+    "confidence": 0.98,
+    "probabilities": {
+      "digital": 0,
+      "transfers": 0,
+      "shopping": 0,
+      "other": 0.01,
+      "health": 0,
+      "transport": 0.98,
+      "travel": 0.01,
+      "home": 0,
+      "groceries": 0,
+      "dining": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "76112ca2b79ee973d4e1744a0bbfc6e70c3fa7439e0981f2c98bb77e04045a34:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "transfers": 0,
+      "shopping": 0,
+      "other": 0,
+      "health": 0,
+      "travel": 0,
+      "home": 0,
+      "transport": 0,
+      "groceries": 1,
+      "dining": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "6a817f416d5abc4d734186c7a71c8182e5ea6c4653ba0d5ba92993b665f0f5c9:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "transfers": 0,
+      "shopping": 0,
+      "other": 0,
+      "health": 0,
+      "travel": 0,
+      "home": 0,
+      "transport": 0,
+      "groceries": 0,
+      "dining": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "13cc89a9e1c42dd133584086d72ae1c811e8cf86c665e5aefc74930e0e938e85:Multimedia": {
+    "category": "digital",
+    "confidence": 0.82,
+    "probabilities": {
+      "digital": 0.85,
+      "transfers": 0,
+      "shopping": 0,
+      "other": 0.01,
+      "health": 0,
+      "travel": 0,
+      "transport": 0.13,
+      "home": 0.01,
+      "groceries": 0,
+      "dining": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "7dd4228d8ca758197467261c76f55b0eb24d228c30ff4d205681c4f3d29ba558:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.98,
+    "probabilities": {
+      "digital": 0.01,
+      "transfers": 0,
+      "shopping": 0,
+      "other": 0,
+      "health": 0,
+      "travel": 0,
+      "transport": 0,
+      "home": 0,
+      "groceries": 0,
+      "dining": 0.99
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "e69e53f1bc5691aff452f98990eff4b0d63effe2cb4e6b7d9322ac86fa0634ac:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "transfers": 0,
+      "shopping": 0,
+      "other": 0,
+      "health": 0,
+      "home": 0,
+      "transport": 0,
+      "travel": 0,
+      "groceries": 1,
+      "dining": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "30540a0293f1d99a1d3ec1ccac6627ac9f91c00e5e31a9e1b723604e98cfcacb:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "dining": 1,
+      "health": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "other": 0,
+      "home": 0,
+      "transport": 0,
+      "travel": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "1936084c0241866439f51c0695d6952ce44c0cf0122088ec4ae545f5d8d291a2:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.9,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "groceries": 0,
+      "health": 0,
+      "dining": 0.91,
+      "travel": 0,
+      "transport": 0,
+      "home": 0,
+      "transfers": 0,
+      "other": 0.09
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "f9a151717871dbebb30e0620a3fba885b35aebfd522ba4cc7b13ac692910b760:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.66,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "dining": 0.3,
+      "health": 0,
+      "groceries": 0.69,
+      "travel": 0,
+      "other": 0.01,
+      "home": 0,
+      "transfers": 0,
+      "transport": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "c929cd8cd01319f5f41c29547c00696b9edff92fefe8427fd6e3c2f536a8198a:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "dining": 1,
+      "health": 0,
+      "groceries": 0,
+      "travel": 0,
+      "other": 0,
+      "home": 0,
+      "transport": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "6380258d47e9938eb0d4213c17542369d3d42b0419a0191e43e3e246a4e9ad38:Lekarstwa": {
+    "category": "health",
+    "confidence": 0.97,
+    "probabilities": {
+      "digital": 0.01,
+      "shopping": 0.01,
+      "groceries": 0,
+      "health": 0.96,
+      "dining": 0,
+      "transfers": 0,
+      "transport": 0,
+      "home": 0,
+      "other": 0.01,
+      "travel": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "health"
+  },
+  "1157e96de3e648505e022ee70182e5e4673a58027dfbb8a7c0d6dbc9d07d9dd6:Artykuły spożywcze": {
+    "category": "dining",
+    "confidence": 0.7,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0.06,
+      "groceries": 0.15,
+      "health": 0,
+      "dining": 0.73,
+      "transfers": 0,
+      "other": 0.06,
+      "home": 0,
+      "transport": 0,
+      "travel": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "06ec16a7f4eb5237c7f4ebfdb0d50690ffdba8bd0dd9023c0a800495c116315c:Multimedia": {
+    "category": "transfers",
+    "confidence": 0.59,
+    "probabilities": {
+      "digital": 0.32,
+      "shopping": 0,
+      "groceries": 0,
+      "health": 0,
+      "dining": 0,
+      "transfers": 0.64,
+      "other": 0.02,
+      "home": 0.02,
+      "travel": 0,
+      "transport": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transfers"
+  },
+  "eca2d43107925a8eb22cf2c1cd4f67e39d2537119116ba668cba2b622d4868ee:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.66,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "groceries": 0.7,
+      "health": 0,
+      "dining": 0.26,
+      "travel": 0,
+      "transport": 0,
+      "home": 0,
+      "transfers": 0,
+      "other": 0.04
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "9c80d2c062221f7af27fca1f95e8b84aa7debcb7c60c22747571fcfaf59079c0:Taxi": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "groceries": 0,
+      "health": 0,
+      "dining": 0,
+      "travel": 0,
+      "other": 0,
+      "home": 0,
+      "transfers": 0,
+      "transport": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "8fd2d4a71fdfa99be5484df0af7623f98f0528b164324502321a060ba7df9196:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "dining": 1,
+      "health": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "other": 0,
+      "home": 0,
+      "travel": 0,
+      "transport": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "19e1879cd0e6ec3d17e1d8219d61c8c3c3ed3069857b7f3dd8537510a5db2efa:Internet, TV, telefon": {
+    "category": "digital",
+    "confidence": 0.99,
+    "probabilities": {
+      "digital": 1,
+      "shopping": 0,
+      "dining": 0,
+      "health": 0,
+      "groceries": 0,
+      "transfers": 0,
+      "other": 0,
+      "home": 0,
+      "transport": 0,
+      "travel": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "digital"
+  },
+  "fd6383cb1dd5bc846a40f8bf83e7bd2366fccc35085894447c79f20877756032:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.99,
+    "probabilities": {
+      "digital": 0,
+      "shopping": 0,
+      "groceries": 0,
+      "health": 0,
+      "dining": 1,
+      "transfers": 0,
+      "other": 0,
+      "home": 0,
+      "transport": 0,
+      "travel": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "a883d62f3e5297fb5b70932ad997dfbc3afa1b5a90ffbd17107060c1c79501de:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.95,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "groceries": 0.97,
+      "other": 0.03,
+      "digital": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "85552b29b041aae090f690047d4396054c737d866fc5105293c1be9e0c876f8a:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.97,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 0.97,
+      "groceries": 0,
+      "other": 0.03,
+      "digital": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "7b81c74bfce1dd226a6e6c4918938a3009d3febc1f2ff87b32ac624348a81cd9:Internet, TV, telefon": {
+    "category": "home",
+    "confidence": 0.8,
+    "probabilities": {
+      "home": 0.83,
+      "transfers": 0,
+      "dining": 0,
+      "groceries": 0,
+      "other": 0,
+      "digital": 0.17,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "digital"
+  },
+  "4c78d741a139e1fa13f3c8de17dff49e8c824b42a0e7df9086ec2f65800e29b9:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 1,
+      "groceries": 0,
+      "other": 0,
+      "digital": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "1c55584c11fe7436968a9bac17cb9bec7c5003115aaa65dcce0f6faddca494cd:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.76,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 0.03,
+      "groceries": 0.8,
+      "other": 0.02,
+      "digital": 0,
+      "travel": 0,
+      "health": 0.13,
+      "transport": 0,
+      "shopping": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "0674e6811ab5a38e44ae0d32d52bf8bbd08490293e6146c256c4884fee747d02:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 1,
+      "groceries": 0,
+      "other": 0,
+      "digital": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "f375d7c192e2085a754aac89bb43acbcdd11038abf1c841e7579102c96080d90:Kino i teatr": {
+    "category": "travel",
+    "confidence": 0.35,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 0.03,
+      "groceries": 0.02,
+      "other": 0.08,
+      "digital": 0.04,
+      "travel": 0.41,
+      "health": 0.01,
+      "transport": 0,
+      "shopping": 0.41
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "shopping"
+  },
+  "6ecaaebc4b8faf828b669171d6e06b2431444f5758ace704477f7ad043cec8f1:Ubezpieczenia": {
+    "category": "home",
+    "confidence": 0.91,
+    "probabilities": {
+      "home": 0.93,
+      "transfers": 0,
+      "dining": 0,
+      "groceries": 0,
+      "other": 0.07,
+      "digital": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "f18b1667ddee3a0952f738aca376984ebb3273e88fa3b804b796aa2c61f79d2f:Myjnia, przeglądy i naprawy": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "groceries": 0,
+      "other": 0,
+      "digital": 0,
+      "travel": 0,
+      "health": 0,
+      "transport": 1,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "a941b10b454f6af2e8298b4d604d2a4d33db210c48617ca59ba50c01b77e7d9e:Zakupy przez internet": {
+    "category": "digital",
+    "confidence": 0.97,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 0,
+      "groceries": 0,
+      "other": 0,
+      "digital": 0.97,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0.03
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "digital"
+  },
+  "81bff86774d40ac5b8fe458e6d26caaaf5906b98c65df0961363f5d5aaf6fe7e:Puby i kluby": {
+    "category": "dining",
+    "confidence": 0.57,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 0.61,
+      "groceries": 0,
+      "other": 0.01,
+      "digital": 0,
+      "travel": 0.38,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "travel"
+  },
+  "0c5e67c3b7d922d6c51442b1e7c3ad855444dc0670759778f720864931766dc9:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.93,
+    "probabilities": {
+      "home": 0,
+      "transfers": 0,
+      "dining": 0.94,
+      "groceries": 0,
+      "other": 0.05,
+      "digital": 0,
+      "travel": 0.01,
+      "health": 0,
+      "transport": 0,
+      "shopping": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "723c95233fd8c823cabee974d5cd6ab38c59f7bed39f016feda9c32678f58d3a:Inne": {
+    "category": "groceries",
+    "confidence": 0.98,
+    "probabilities": {
+      "shopping": 0,
+      "other": 0.01,
+      "digital": 0,
+      "groceries": 0.99,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0,
+      "travel": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "0ee02e58ae98a28656602ea032540cd14e80df133e90ba095734ee62a4a88cd1:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "shopping": 0,
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 1,
+      "digital": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "07047a7b840581f440cbbe03a48cd2eb1740f8f0229feb59528a371104363f66:Zwierzęta domowe": {
+    "category": "shopping",
+    "confidence": 0.83,
+    "probabilities": {
+      "shopping": 0.85,
+      "digital": 0,
+      "travel": 0.08,
+      "other": 0.07,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0,
+      "groceries": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "b59ed668f8be788b4f6b1381b10ea37d086d457027d48fc62709c887174ada57:Artykuły spożywcze": {
+    "category": "dining",
+    "confidence": 0.82,
+    "probabilities": {
+      "shopping": 0,
+      "travel": 0,
+      "groceries": 0.15,
+      "digital": 0,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0.85,
+      "other": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "337f05bb60513ea1756afdc47f2b82bb4050e417b9baec695f8e61c6ad78e6a7:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.99,
+    "probabilities": {
+      "shopping": 0,
+      "groceries": 0,
+      "other": 0.01,
+      "digital": 0,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0.99,
+      "travel": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "ed3260324510abeee89f5602930d6578b59e99b82942079030bf70166354afca:Artykuły spożywcze": {
+    "category": "dining",
+    "confidence": 0.98,
+    "probabilities": {
+      "shopping": 0,
+      "other": 0,
+      "groceries": 0.02,
+      "travel": 0,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0.98,
+      "digital": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "84a57b454892cd3ed4f5fd743e825d657ea08fef4fe449fa0d3744da9ce3c55a:Multimedia": {
+    "category": "digital",
+    "confidence": 0.92,
+    "probabilities": {
+      "shopping": 0,
+      "travel": 0,
+      "digital": 0.93,
+      "other": 0.05,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0,
+      "groceries": 0,
+      "transfers": 0.02
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "e6d4fa34daa48c5f41a152d4c2df8522228afa03c10a5e4d73f98da329ca5414:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.99,
+    "probabilities": {
+      "shopping": 0,
+      "other": 0.01,
+      "digital": 0,
+      "groceries": 0,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0.99,
+      "travel": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "c488a9eb54febf67b53fec64bec3e745a9bbf946cab2e129948932cf9b7204ac:Lekarstwa": {
+    "category": "health",
+    "confidence": 1,
+    "probabilities": {
+      "shopping": 0,
+      "other": 0,
+      "travel": 0,
+      "groceries": 0,
+      "health": 1,
+      "transport": 0,
+      "home": 0,
+      "dining": 0,
+      "digital": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "health"
+  },
+  "c846a4f57581788cc7759647e63c8791bd866e4dc38f1882c194396f3bd596b5:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.96,
+    "probabilities": {
+      "shopping": 0,
+      "other": 0.01,
+      "travel": 0,
+      "digital": 0,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0.02,
+      "groceries": 0.97,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "41a24af3baff5fba6bcd802d4a1b195d79ab094a1772613cebca7cb3c9682a85:Inne": {
+    "category": "transport",
+    "confidence": 0.73,
+    "probabilities": {
+      "shopping": 0,
+      "digital": 0,
+      "other": 0.23,
+      "groceries": 0,
+      "health": 0,
+      "transport": 0.76,
+      "home": 0,
+      "dining": 0,
+      "travel": 0,
+      "transfers": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "e33ec50e29c6acde8b4123b34fe8bf491480dc2b51087459c87a72a0dfd482c8:Hotele": {
+    "category": "travel",
+    "confidence": 1,
+    "probabilities": {
+      "shopping": 0,
+      "groceries": 0,
+      "travel": 1,
+      "other": 0,
+      "health": 0,
+      "transport": 0,
+      "home": 0,
+      "dining": 0,
+      "digital": 0,
+      "transfers": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "travel"
+  },
+  "3b131c35c0c88236dedf919697749bcafd421c74851199377690701c49b57c3b:Hobby": {
+    "category": "health",
+    "confidence": 0.9,
+    "probabilities": {
+      "shopping": 0.05,
+      "digital": 0,
+      "dining": 0,
+      "transport": 0,
+      "groceries": 0,
+      "health": 0.91,
+      "other": 0.04,
+      "travel": 0,
+      "transfers": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "health"
+  },
+  "a6dca5ab07b5c880411d60b49cbc69f81fd7a83ee75db6aa98a274bbb80042f9:Sport": {
+    "category": "health",
+    "confidence": 0.55,
+    "probabilities": {
+      "shopping": 0.09,
+      "digital": 0,
+      "dining": 0,
+      "transport": 0,
+      "groceries": 0,
+      "health": 0.6,
+      "other": 0.26,
+      "transfers": 0,
+      "travel": 0.05,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "85d77c5f6efd1320f994099d70fbbe9416073828bf54e3efa5230ca89328c399:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "dining": 1,
+      "digital": 0,
+      "shopping": 0,
+      "transport": 0,
+      "groceries": 0,
+      "health": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "6497cad2e9fb9a6df70be5b2c0de31c2aee8e56a80155c7a3f2c46d500acf427:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "dining": 0,
+      "digital": 0,
+      "shopping": 0,
+      "health": 0,
+      "groceries": 1,
+      "transport": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "90146571e3df1f7c67c98d7bfb44c6712e6f0e2651e8914d94762efaedc73844:Multimedia": {
+    "category": "digital",
+    "confidence": 1,
+    "probabilities": {
+      "shopping": 0,
+      "digital": 1,
+      "dining": 0,
+      "transport": 0,
+      "groceries": 0,
+      "health": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "digital"
+  },
+  "434ae5c24a2174dbba1b9c3c386067958b376f1e645f6dee2a1307fe20e983b8:Alkohol": {
+    "category": "groceries",
+    "confidence": 0.92,
+    "probabilities": {
+      "shopping": 0,
+      "digital": 0,
+      "dining": 0.02,
+      "health": 0,
+      "groceries": 0.93,
+      "transport": 0,
+      "other": 0.04,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "3f83a9d7c2fa3eb0a5a7b59ea5c9eb55250b85da950ffb983d8ecbf200cf1e71:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.89,
+    "probabilities": {
+      "shopping": 0.07,
+      "digital": 0,
+      "dining": 0,
+      "transport": 0,
+      "groceries": 0.91,
+      "health": 0,
+      "other": 0.02,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "shopping"
+  },
+  "aec5947c0037857659e9d14e3a83bd01d1d8bba85d52174aa899941d4a926ccf:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.96,
+    "probabilities": {
+      "shopping": 0,
+      "digital": 0,
+      "dining": 0.97,
+      "health": 0,
+      "groceries": 0,
+      "transport": 0,
+      "other": 0.03,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "5f463097e146fbc62539e9fffc348f3dfd0a39ac1517272b9ecb3669489753fb:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 0.87,
+    "probabilities": {
+      "shopping": 0.01,
+      "digital": 0,
+      "dining": 0.04,
+      "transport": 0,
+      "groceries": 0.89,
+      "health": 0,
+      "other": 0.06,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "34680ff35567cfa33d0262df9374367c182592528704973d2e01c2c0f1c430c3:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "shopping": 0,
+      "digital": 0,
+      "dining": 1,
+      "health": 0,
+      "groceries": 0,
+      "transport": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "a0a496c8668bb6c6fdb9017d330972fb2b1680b67330f36f9de05ec47657db84:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "shopping": 0,
+      "digital": 0,
+      "dining": 1,
+      "transport": 0,
+      "groceries": 0,
+      "health": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "119bbb9984ef87b3fd0ba94d2b6a51a1aa2f8987022f4dfaf8cb0a1d9bb646ba:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.87,
+    "probabilities": {
+      "dining": 0.88,
+      "digital": 0,
+      "shopping": 0.01,
+      "transport": 0,
+      "groceries": 0.01,
+      "health": 0.02,
+      "other": 0.08,
+      "transfers": 0,
+      "travel": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "other"
+  },
+  "2be9770a018059498a89c1a5e9d0450976c455788ad44cfc92844a292e8e951a:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "dining": 1,
+      "transfers": 0,
+      "health": 0,
+      "shopping": 0,
+      "transport": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "6ef4e30754f4123f7abb6d26039d70aa7b7c0f66c57e9d70413db9099a7c26f0:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "health": 0,
+      "transfers": 0,
+      "dining": 1,
+      "shopping": 0,
+      "transport": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "50ab67d2d7ed40343ac220992ed0b6e1010d611b99414dea7ca6b2663be60dd4:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "health": 0,
+      "transfers": 0,
+      "dining": 1,
+      "shopping": 0,
+      "transport": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "05566e1529e3a39cc820e4f5e8815c705c7463927b5e1f1d4e017820e1d9db1e:Paliwo": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "health": 0,
+      "transfers": 0,
+      "dining": 0,
+      "shopping": 0,
+      "transport": 1,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "bfc0581dd24cbbb1d5a738a1165e5f74e3ec8c7d8a4a70935df8d535786b6409:Hotele": {
+    "category": "travel",
+    "confidence": 0.89,
+    "probabilities": {
+      "travel": 0.9,
+      "other": 0.01,
+      "groceries": 0,
+      "digital": 0,
+      "health": 0,
+      "transfers": 0,
+      "dining": 0.09,
+      "shopping": 0,
+      "transport": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "4bbf6c7ff6e2dfb6ad02b8b0d871f24c1f02d9a7463e4973fcd044d415968e93:Paliwo": {
+    "category": "transport",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "dining": 0,
+      "transfers": 0,
+      "health": 0,
+      "shopping": 0,
+      "transport": 1,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "a5520ea3eee6af42500c3132387f85f445e73ad3316536b60eb58ccbafd5406a:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "dining": 1,
+      "transfers": 0,
+      "health": 0,
+      "shopping": 0,
+      "transport": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "36c5c3c961c41195961e686d820fc8fbffb9e841d95c0e49b7a31df9645d10a8:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "dining": 1,
+      "transfers": 0,
+      "health": 0,
+      "shopping": 0,
+      "transport": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "c983be7f20acd378536ad3a79953ae290aff94590263042ce2a32fd16f1c3dd0:Paliwo": {
+    "category": "transport",
+    "confidence": 0.99,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "dining": 0,
+      "transfers": 0,
+      "health": 0,
+      "shopping": 0,
+      "transport": 1,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "befb455b18912f4db208c6a567d011ae95f3abdea08a0a8dfceffe4177584e3e:Inne": {
+    "category": "transport",
+    "confidence": 0.49,
+    "probabilities": {
+      "travel": 0.02,
+      "other": 0.39,
+      "groceries": 0,
+      "digital": 0,
+      "dining": 0.01,
+      "transfers": 0,
+      "health": 0.03,
+      "shopping": 0.01,
+      "transport": 0.54,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "transport"
+  },
+  "c83b417cba29fee11c6e66615b547cfa1993ae6c8f3c275279291da65dbec317:Lekarstwa": {
+    "category": "health",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "dining": 0,
+      "transfers": 0,
+      "health": 1,
+      "shopping": 0,
+      "transport": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "health"
+  },
+  "637a4c929f24cfee70cf0ba2087a6b801c4432dac793452e4fb7b80c521f4651:Opieka medyczna": {
+    "category": "health",
+    "confidence": 1,
+    "probabilities": {
+      "travel": 0,
+      "other": 0,
+      "groceries": 0,
+      "digital": 0,
+      "health": 1,
+      "transfers": 0,
+      "dining": 0,
+      "shopping": 0,
+      "transport": 0,
+      "home": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "health"
+  },
+  "6e03ba4e75c5aa905e7b0e9c96cc7560f9ccd5055bbc10c51b91911f468df279:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.98,
+    "probabilities": {
+      "transport": 0,
+      "health": 0,
+      "home": 0,
+      "dining": 0.99,
+      "shopping": 0,
+      "digital": 0,
+      "other": 0.01,
+      "transfers": 0,
+      "travel": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "e8a851385ddf8546d44aa737c31217e4033537421b2deb9b397f71eda03b5cb9:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "health": 0,
+      "home": 0,
+      "dining": 0,
+      "shopping": 0,
+      "digital": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "groceries": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "34995df4e0002f00e0d189703e491380f50e17f87b11d2577b48e4fd62262e95:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "health": 0,
+      "home": 0,
+      "dining": 0,
+      "shopping": 0,
+      "other": 0,
+      "transfers": 0,
+      "travel": 0,
+      "digital": 0,
+      "groceries": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "f3345f3b9f73de727b19f456638c51978594202bf9a30ff94046da578dbdc52a:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.98,
+    "probabilities": {
+      "transport": 0,
+      "travel": 0,
+      "home": 0,
+      "health": 0,
+      "shopping": 0.01,
+      "digital": 0,
+      "dining": 0.98,
+      "other": 0.01,
+      "transfers": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "323b23ba4f05661b86c2ea60434e3295772dc38e8a1e679c46748ba9ef04d38c:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "transfers": 0,
+      "home": 0,
+      "dining": 1,
+      "shopping": 0,
+      "travel": 0,
+      "other": 0,
+      "health": 0,
+      "digital": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "de1be803fd43a76b2faea2ad82958a046de818b39686da4b5cd7743ea3a50bf6:Sprzęt AGD i RTV": {
+    "category": "shopping",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "other": 0,
+      "home": 0,
+      "dining": 0,
+      "shopping": 1,
+      "travel": 0,
+      "health": 0,
+      "transfers": 0,
+      "digital": 0,
+      "groceries": 0
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "shopping"
+  },
+  "d12b4d2083db7976a86aaad8848dbf8933d6c0bd81063bb27743b7eacc6ec9bf:Artykuły spożywcze": {
+    "category": "groceries",
+    "confidence": 1,
+    "probabilities": {
+      "transport": 0,
+      "health": 0,
+      "home": 0,
+      "dining": 0,
+      "shopping": 0,
+      "travel": 0,
+      "digital": 0,
+      "other": 0,
+      "transfers": 0,
+      "groceries": 1
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "c0d432c9237f819701883be72f2924d5709706fe67d6e159fa932421a5db56b0:Naprawy i remonty": {
+    "category": "shopping",
+    "confidence": 0.61,
+    "probabilities": {
+      "transport": 0,
+      "transfers": 0,
+      "home": 0.02,
+      "dining": 0,
+      "shopping": 0.66,
+      "travel": 0,
+      "other": 0.03,
+      "health": 0,
+      "digital": 0,
+      "groceries": 0.29
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "groceries"
+  },
+  "3707a3196613b24fef3498d108352598d79b472e35991b4c4a540525e0a477c1:Restauracje i kawiarnie": {
+    "category": "dining",
+    "confidence": 0.98,
+    "probabilities": {
+      "transport": 0,
+      "health": 0,
+      "home": 0,
+      "dining": 0.99,
+      "shopping": 0,
+      "travel": 0,
+      "digital": 0,
+      "other": 0,
+      "transfers": 0,
+      "groceries": 0.01
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "dining"
+  },
+  "4812bdb1b36851c9ff2f0e6a939c74d3bffaad7715859cb2ce78c69ab838a395:Artykuły spożywcze": {
+    "category": "shopping",
+    "confidence": 0.55,
+    "probabilities": {
+      "transport": 0,
+      "other": 0.06,
+      "home": 0,
+      "dining": 0.03,
+      "shopping": 0.6,
+      "travel": 0,
+      "digital": 0,
+      "transfers": 0,
+      "health": 0.01,
+      "groceries": 0.3
+    },
+    "model": "jev-1.13.0",
+    "compared": true,
+    "initialCategory": "shopping"
+  }
+}
