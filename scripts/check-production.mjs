@@ -1,0 +1,10 @@
+import {readFile} from 'node:fs/promises';
+const token=(await readFile('data/deployment-access.txt','utf8')).trim();
+const base='https://cc-api.pomeloapps.com';
+const headers={Origin:'https://cc.pomeloapps.com',Authorization:'Bearer '+token,'Content-Type':'application/json'};
+const unauthorized=await fetch(base+'/api/sample');if(unauthorized.status!==401)throw Error('Private sample is not protected');
+const sample=await fetch(base+'/api/sample',{headers});if(!sample.ok)throw Error('Sample failed: '+sample.status);const data=await sample.json();
+const result=await fetch(base+'/api/classify',{method:'POST',headers,body:JSON.stringify({transactions:[{merchant:'CATENA NINA SRL PITESTI ROM',title:'',type:'ZAKUP',bankCategory:'Lekarstwa'}]})});
+if(!result.ok)throw Error('Jev request failed: '+result.status+' '+await result.text());
+const answer=await result.json();if(answer.results[0].category!=='health'||!answer.results[0].compared)throw Error('Unexpected classification');
+console.log(JSON.stringify({sampleCount:data.transactions.length,unauthenticatedStatus:unauthorized.status,jevCategory:answer.results[0].category,model:answer.results[0].model,bankComparison:answer.results[0].compared}));
