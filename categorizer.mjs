@@ -1,7 +1,8 @@
 export const categories = {
   giving: {name:'Giving',color:'#b18b97',icon:'♡',description:'Charitable donations and fundraising contributions.'},
   groceries: {name:'Groceries',color:'#798668',icon:'◈',description:'Supermarkets, convenience stores, food shopping for home.'},
-  dining: {name:'Food & coffee',color:'#cb754e',icon:'☕',description:'Restaurants, cafes, bakeries, takeaway and food delivery.'},
+  restaurants: {name:'Restaurants',color:'#cb754e',icon:'⌁',description:'Restaurants, pubs, takeaway, food delivery and prepared-food bakeries. Excludes cafés and coffee shops.'},
+  coffee: {name:'Coffee',color:'#a77c5c',icon:'☕',description:'Cafés, coffee shops and coffee-focused patisseries. Excludes restaurants, pubs and takeaway meals.'},
   shopping: {name:'Shopping',color:'#c6a56a',icon:'◇',description:'Clothes, electronics, household goods, general retail.'},
   transport: {name:'Transport',color:'#718e98',icon:'↗',description:'Public transport, taxis, fuel, parking, car services.'},
   travel: {name:'Travel & leisure',color:'#a28aa9',icon:'✳',description:'Hotels, flights, tourism, attractions, entertainment and recreation.'},
@@ -11,6 +12,8 @@ export const categories = {
   transfers: {name:'Transfers & cash',color:'#8c9690',icon:'⇄',description:'Money transfers, card repayments, ATM cash withdrawals; not identifiable purchases.'},
   other: {name:'Other',color:'#b0a99e',icon:'···',description:'Insufficient evidence or no matching category. Do not invent what an unknown merchant sells.'}
 };
+export function migrateLegacyCategory(value){return value==='dining'?'restaurants':value;}
+export function migrateLegacyCategoryRecord(record){const next={...record,category:migrateLegacyCategory(record.category),initialCategory:migrateLegacyCategory(record.initialCategory)};if(record.probabilities?.dining!==undefined){const {dining,...probabilities}=record.probabilities;next.probabilities={...probabilities,restaurants:(probabilities.restaurants||0)+dining};}return next;}
 export function parseStatement(text){
  const transactions=[]; let invalid=0;
  for(const line of text.split(/\r?\n/)){

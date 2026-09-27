@@ -2,14 +2,14 @@ import http from 'node:http';
 import {reviewedDecision} from './reviewed.mjs';
 import {readFile,writeFile,readdir,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {categories,parseStatement,makeRequest} from './categorizer.mjs';
+import {categories,migrateLegacyCategoryRecord,parseStatement,makeRequest} from './categorizer.mjs';
 import {parseBank,reconcile,comparisonRequest} from './bank.mjs';
 await mkdir('data',{recursive:true});
 const env=await readFile('.env','utf8').catch(()=>'');
 const key=process.env.TYPESAFE_API_KEY||env.match(/(?:typesafeai_api_key|TYPESAFE_API_KEY)\s*=\s*["']?([^\s"']+)/)?.[1];
-let cache=JSON.parse(await readFile('data/cache.json','utf8').catch(()=>'{}'));
+let cache=Object.fromEntries(Object.entries(JSON.parse(await readFile('data/cache.json','utf8').catch(()=>'{}'))).map(([key,value])=>[key,migrateLegacyCategoryRecord(value)]));
 const jobs=new Map();
-let compared=JSON.parse(await readFile('data/compared.json','utf8').catch(()=>'{}'));
+let compared=Object.fromEntries(Object.entries(JSON.parse(await readFile('data/compared.json','utf8').catch(()=>'{}'))).map(([key,value])=>[key,migrateLegacyCategoryRecord(value)]));
 const comparisonKey=t=>signature(t)+':'+t.bankCategory;
 async function bankRows(){const files=(await readdir('.')).filter(n=>n.toLowerCase().endsWith('.csv'));return (await Promise.all(files.map(async n=>parseBank(await readFile(n,'utf8'))))).flat();}
 const signature=t=>createHash('sha256').update(JSON.stringify([t.merchant,t.title,t.type])).digest('hex');

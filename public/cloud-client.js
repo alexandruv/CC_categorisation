@@ -1,4 +1,4 @@
-import {categories,parseStatement} from './categorizer.mjs';
+import {categories,migrateLegacyCategoryRecord,parseStatement} from './categorizer.mjs';
 import {parseBank,reconcile} from './bank.mjs';
 import {loadWorkspace,saveWorkspace} from './workspace-store.js';
 const base='https://cc-api.pomeloapps.com';
@@ -28,7 +28,7 @@ export async function cloudApi(path,options){
  if(path==='/api/workspace'){
   await request('/api/session');
   const saved=await loadWorkspace('cloud',token);if(!saved)return null;
-  current=saved.job;reference=saved.reference||[];cache.clear();
+  current={...saved.job,transactions:saved.job.transactions.map(migrateLegacyCategoryRecord)};reference=saved.reference||[];cache.clear();
   for(const t of current.transactions)if(t.category&&t.amount<0)cache.set(key(t),Object.fromEntries(['category','confidence','model','initialCategory','compared','reviewed','reviewReason','reviewSource'].filter(k=>k in t).map(k=>[k,t[k]])));
   if(current.status==='processing'&&current.transactions.every(t=>t.category)){current.status='complete';}
   if(current.status==='processing'){current.status='paused';current.error='Import interrupted. Saved categories are safe; resume to categorise only the remaining expenses.';}
