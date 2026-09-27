@@ -21,7 +21,7 @@ async function process(job,run,secret){try{
  await checkpoint(job,secret);
  }
  job.transactions=job.transactions.map(t=>t.amount>=0?{...t,category:'income',confidence:1}:t);counts(job);
- job.status='complete';job.savedAt=new Date().toISOString();await checkpoint(job,secret);
+ const completed={...job,status:'complete',savedAt:new Date().toISOString()};await checkpoint(completed,secret);if(run===generation)Object.assign(job,completed);
  }catch(e){if(run!==generation)return;job.status='error';job.error=e.message;try{await checkpoint(job,secret)}catch{} } }
 export async function cloudApi(path,options){
  if(path==='/api/categories')return categories;
@@ -30,6 +30,7 @@ export async function cloudApi(path,options){
   const saved=await loadWorkspace('cloud',token);if(!saved)return null;
   current=saved.job;reference=saved.reference||[];cache.clear();
   for(const t of current.transactions)if(t.category&&t.amount<0)cache.set(key(t),Object.fromEntries(['category','confidence','model','initialCategory','compared','reviewed','reviewReason','reviewSource'].filter(k=>k in t).map(k=>[k,t[k]])));
+  if(current.status==='processing'&&current.transactions.every(t=>t.category)){current.status='complete';}
   if(current.status==='processing'){current.status='paused';current.error='Import interrupted. Saved categories are safe; resume to categorise only the remaining expenses.';}
   current.restored=true;return structuredClone(current);
  }
