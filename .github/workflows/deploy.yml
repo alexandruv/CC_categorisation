@@ -21,6 +21,9 @@ jobs:
       - run: npm test
       - run: npm run check:worker
       - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - name: Verify persistent cache and amount controls
+        run: node cache-browser-check.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

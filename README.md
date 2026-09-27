@@ -23,3 +23,9 @@ Uploaded TXT files must match the bank's tab-separated layout. CSV files use the
 ## Automatic production deployment
 
 Pushes to `main` deploy the protected Cloudflare Worker API followed by GitHub Pages at `cc.pomeloapps.com`. See [DEPLOYMENT.md](DEPLOYMENT.md) for the one-time Cloudflare secrets setup, access code, DNS, and validation commands. The local Node app remains available through `npm start`.
+
+## Saved expenses and amount controls
+
+The last imported statement is saved in browser IndexedDB. Refreshing, locking/unlocking, or reopening the tab restores it without additional Jev calls. Uploading a new statement starts a new assessment and replaces the saved statement. Interrupted imports retain completed batches and offer to resume only remaining expenses. Cloud snapshots are encrypted using the workspace access code; browser storage must be enabled. Results are local to that browser profile.
+
+Transactions default to most expensive outgoing purchases first, with incoming amounts afterward. Min/max amount filters use positive magnitudes in the selected currency; sort options also include least expensive and newest first. Filters apply to the table and CSV export.

@@ -20,7 +20,7 @@ Every push to `main` runs tests, bundles the Worker, builds an explicitly allowl
 
 ## Data and authentication
 
-The static website contains no keys or transaction data. A protected API sample returns the original 339 matched transactions; the full original statements are not served by Pages. Uploaded statements are parsed in the browser. Only merchant, description, operation type and optional bank category go to the API and Jev. The Worker uses up to 12 transactions per request, completing both the initial and bank-comparison passes before returning results. The browser shows progress and caches results for the current page session. Reloading may rerun inference. Manual corrections remain in browser local storage.
+The static website contains no keys or transaction data. A protected API sample returns the original 339 matched transactions; the full original statements are not served by Pages. Uploaded statements are parsed in the browser. Only merchant, description, operation type and optional bank category go to the API and Jev. The Worker uses up to 12 transactions per request, completing both the initial and bank-comparison passes before returning results. The browser commits each completed batch to IndexedDB and retains the last imported statement across refreshes, tab closure and locking. Cloud snapshots are encrypted with the workspace access code. Completed imports are restored without Jev requests. A new valid upload replaces the current statement and starts a fresh assessment. Interrupted imports require an explicit resume and only unfinished expenses are submitted. Manual corrections remain in browser local storage. This cache is specific to the browser profile; clearing site data or using a different browser requires a new initial assessment. The initial load after upgrading from the old in-memory cache runs once to create the first durable snapshot.
 
 The API checks the workspace bearer code on every sensitive endpoint, rejects other browser origins, and fails closed if secrets are missing. It does not use public, unauthenticated AI requests. The code is stored in session storage until you lock the workspace or close the browser tab. The health endpoint returns only readiness. This is a single-owner workspace, not a multi-user account system.
 
@@ -32,6 +32,7 @@ The repository itself is currently public and already contains the original bank
 - `npm test`: parser, reconciliation, review, API auth, CORS and Jev contract checks.
 - `npm run check:worker`: production Worker bundle validation without deployment.
 - `npm run build`: builds `dist/` without statements or credentials.
+- `node cache-browser-check.mjs`: checks that refresh, unlock and a new tab use zero additional Jev requests, new uploads reassess once, and amount controls work.
 - `node cloud-browser-check.mjs`: browser integration checks against the real Worker handler with mocked Jev answers, no inference charges.
 - `npm run deploy:worker`: manual Worker deployment after Wrangler authentication and secrets setup.
 
