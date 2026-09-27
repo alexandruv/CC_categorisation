@@ -69,9 +69,9 @@ const server=http.createServer(async(req,res)=>{
   if(transactions.length>3000)return json(res,{error:'Please import fewer than 3,000 transactions.'},400);
   const id=crypto.randomUUID();const job={id,name:String(input.name||'Pasted statement'),transactions,status:'processing',done:0};hydrate(job);jobs.set(id,job);classify(job);return json(res,job);
  }
- const paths={'/':'index.html','/app.js':'app.js','/style.css':'style.css'};
+ const paths={'/':'index.html','/app.js':'app.js','/style.css':'style.css','/cloud-client.js':'cloud-client.js','/categorizer.mjs':'../categorizer.mjs','/bank.mjs':'../bank.mjs'};
  if(req.method!=='GET'||!paths[url.pathname])return json(res,{error:'Not found'},404);
- const file=paths[url.pathname];res.writeHead(200,{'Content-Type':file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':'text/html'});res.end(await readFile('public/'+file));
+ const file=paths[url.pathname];res.writeHead(200,{'Content-Type':(file.endsWith('.js')||file.endsWith('.mjs'))?'text/javascript':file.endsWith('.css')?'text/css':'text/html'});res.end(await readFile('public/'+file));
  }catch(e){json(res,{error:e.message},400);}
 });
 server.listen(3000,'127.0.0.1',()=>console.log('Folio running at http://localhost:3000'));

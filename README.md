@@ -19,3 +19,7 @@ Uploaded TXT files must match the bank's tab-separated layout. CSV files use the
 ## Checks
 
 `npm test` checks parsing, privacy of model payloads, reconciliation, duplicate matching and evidence corrections. `node browser-check.mjs` uses installed Google Chrome to check search, pagination, review navigation, invalid imports, JavaScript errors and mobile overflow.
+
+## Automatic production deployment
+
+Pushes to `main` deploy the protected Cloudflare Worker API followed by GitHub Pages at `cc.pomeloapps.com`. See [DEPLOYMENT.md](DEPLOYMENT.md) for the one-time Cloudflare secrets setup, access code, DNS, and validation commands. The local Node app remains available through `npm start`.

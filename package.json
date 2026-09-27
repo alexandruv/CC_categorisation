@@ -1,1 +1,18 @@
-{"name":"folio-expenses","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test"},"devDependencies":{"@playwright/test":"^1.55.0"}}
+{
+  "name": "folio-expenses",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node scripts/prepare-worker.mjs && node --test",
+    "build": "node scripts/build.mjs",
+    "prepare:worker": "node scripts/prepare-worker.mjs",
+    "check:worker": "npm run prepare:worker && wrangler deploy --dry-run --outdir /tmp/folio-worker-build",
+    "deploy:worker": "npm run prepare:worker && wrangler deploy"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "wrangler": "^4.141.0"
+  }
+}

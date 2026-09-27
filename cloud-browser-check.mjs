@@ -1,0 +1,16 @@
+import {chromium} from '@playwright/test';
+import {readFile} from 'node:fs/promises';
+import {handle} from './worker/index.mjs';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+const env={APP_ACCESS_TOKEN:'browser-test-code',TYPESAFE_API_KEY:'mock',ALLOWED_ORIGIN:'https://cc.pomeloapps.com'};
+await page.route('https://cc.pomeloapps.com/**',async route=>{let file=new URL(route.request().url()).pathname.slice(1)||'index.html';if(!['index.html','app.js','style.css','cloud-client.js','categorizer.mjs','bank.mjs'].includes(file))return route.fulfill({status:404});await route.fulfill({body:await readFile('dist/'+file),contentType:file.endsWith('html')?'text/html':file.endsWith('css')?'text/css':'text/javascript'})});
+await page.route('https://cc-api.pomeloapps.com/**',async route=>{const r=route.request();const request=new Request(r.url(),{method:r.method(),headers:r.headers(),...(r.postData()?{body:r.postData()}:{})});const response=await handle(request,env,async(url,options)=>{const p=JSON.parse(options.body);return Response.json({model:'test',answers:Object.fromEntries(Object.keys(p.questions).map(k=>[k,{choice:'groceries',confidence:.9}]))})});await route.fulfill({status:response.status,headers:Object.fromEntries(response.headers),body:await response.text()})});
+await page.goto('https://cc.pomeloapps.com');await page.locator('#access-code').fill('wrong');await page.locator('#unlock').click();await page.waitForFunction(()=>document.querySelector('#access-error').textContent.includes('access code'));
+await page.locator('#access-code').fill('browser-test-code');await page.locator('#unlock').click();await page.waitForFunction(()=>document.querySelector('.status').textContent.includes('Categorised with Jev'));
+if(!await page.locator('#rows').textContent().then(t=>t.includes('CATENA')))throw Error('Protected sample did not load');
+await page.locator('#search').fill('CATENA');await page.locator('.category-select').first().selectOption('health');if(!await page.locator('#rows').textContent().then(t=>t.includes('Your choice')))throw Error('Manual correction failed');
+const download=page.waitForEvent('download');await page.locator('#export').click();await download;
+await page.locator('#lock').click();if(await page.locator('#rows').textContent().then(t=>t.includes('CATENA')))throw Error('Lock did not clear data');
+await page.setViewportSize({width:390,height:844});if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw Error('Mobile overflow');
+console.log({errors,authentication:'passed',categorisation:'passed',manualCorrection:'passed',export:'passed',lock:'passed'});await browser.close();if(errors.length)process.exit(1);

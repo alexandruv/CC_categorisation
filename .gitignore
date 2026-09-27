@@ -5,3 +5,8 @@
 node_modules/
 data/
 test-results/
+dist/
+.wrangler/
+.dev.vars
+worker/sample.json
+.dev.vars.*
